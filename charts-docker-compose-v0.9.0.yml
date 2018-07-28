@@ -25,10 +25,6 @@ services:
       - backend
     secrets:
       - charts-mongodb-uri
-    extra_hosts:
-      - "db0:agnesdatabase-shard-00-00-1mhnx.mongodb.net:27017"
-      - "db1:agnesdatabase-shard-00-01-1mhnx.mongodb.net:27017"
-      - "db2:agnesdatabase-shard-00-02-1mhnx.mongodb.net:27017"
   
 
 networks:
